@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "goit-code-mavericks",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/goit-code-mavericks/",
     "preview": "vite preview"
   },
   "devDependencies": {
