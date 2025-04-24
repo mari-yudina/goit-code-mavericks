@@ -1,1 +1,50 @@
+<section class="catalog">
+  <div class="container catalog-container">
+    <h2 class="catalog-title">Catalog</h2>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <picture class="catalog-picture">
+          <source
+            class="catalog-img"
+            media="(min-width: 1216px)"
+            srcset="
+              ./images/portfolio-lap-1-min.jpg    1x,
+              ./images/portfolio-lap-1@2x-min.jpg 2x
+            "
+          />
+          <source
+            class="catalog-img"
+            media="(min-width: 768px)"
+            srcset="
+              ./images/portfolio-tab-1-min.jpg    1x,
+              ./images/portfolio-tab-1@2x-min.jpg 2x
+            "
+          />
+          <source
+            class="catalog-img"
+            media="(max-width: 767px)"
+            srcset="
+              /img/catalog/watches-mob-one.webp    1x,
+              /img/catalog/watches-mob-one@2x.webp 2x
+            "
+          />
+          <img
+            class="catalog-img"
+            src="../img/catalog/watches-mob-one.webp"
+            alt="watches"
+            width="208"
+            height="226"
+          />
+        </picture>
 
+        <div class="catalog-box">
+          <h3 class="catalog-subtitle subtitle">
+            Garmin Fenix 7X Pro Sapphire Solar
+          </h3>
+          <p class="catalog-text">€500</p>
+        </div>
+      </li>
+    </ul>
+    <button class="catalog-btn">Show more</button>
+  </div>
+</section>
