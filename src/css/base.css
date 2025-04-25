@@ -1,9 +1,12 @@
 body {
+  background-color: #fbfbfb;
   font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
   font-weight: 500;
   font-size: 16px;
   color: #0c0c0c;
   letter-spacing: -0.02em;
+
 }
 
 .visually-hidden {
@@ -18,4 +21,5 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+
 }
