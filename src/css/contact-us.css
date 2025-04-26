@@ -2,7 +2,7 @@
 
 .contact-us {
   width: 100%;
-  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-container {
@@ -100,7 +100,7 @@
 
 input::placeholder,
 textarea::placeholder {
-  font-family: "Gilroy", sans-serif;
+  font-family: 'Gilroy', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
@@ -120,14 +120,13 @@ textarea::placeholder {
   outline: none;
   background-color: transparent;
   border: 1px solid rgba(12, 12, 12, 0.15);
+  resize: none;
 }
 
 .input-comment:focus,
 .input-comment:hover {
   border-color: #3350e9;
 }
-
-
 
 .send-button {
   font-weight: 500;
@@ -154,7 +153,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
   .contact-us {
-    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .contact-inner-container {
@@ -214,7 +213,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 1280px) {
   .contact-us {
-    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .contact-inner-container {
