@@ -34,7 +34,24 @@
                         <button class="send-button" type="submit">Send</button>
                     </form>
                 </div>
-                <img class="contact-us-img" srcset="./img/contact-us-desc-min.jpg 1x, ./img/contact-us-desc-2х-min.jpg 2x" alt="contact-img" width="530" height="556">
+                <div class="contact-img">
+                    <picture>
+                        <source
+                        media="(min-width: 1280px)"
+                        srcset=".src/img/contact-us/contact-us-desc-min.jpg 1x, ./src/img/contact-us/contact-us-desc@2x-min.jpg 2x"/>
+
+                        <source
+                        media="(min-width: 768px)"
+                        srcset=".src/img/contact-us/contact-us-tab-min.jpg 1x, ./src/img/contact-us/contact-us-tab@2x-min.jpg 2x"/>
+
+                        <source
+                        media="(max-width: 767px)"
+                        srcset=".src/img/contact-us/contact-us-mob-min.jpg 1x, ./src/img/contact-us/contact-us-mob@2x-min.jpg 2x"/>
+                    
+                        <img class="contact-us-img"
+                        src=".src/img/contact-us/contact-us-desc-min.jpg" alt="section-image" width="530" height="556">
+                    </picture>
+                </div>
             </div>
     </div>
 </body>
