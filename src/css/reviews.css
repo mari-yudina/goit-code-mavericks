@@ -97,7 +97,6 @@ h6 {
     gap: 16px;
   }
   .rev-item {
-    /* max-width: 344px; */
     max-width: 100%;
     flex-basis: calc((100% - 16px) / 2);
   }
