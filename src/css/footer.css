@@ -2,7 +2,6 @@
   margin: 0 auto;
   max-width: 335px;
   width: 100%;
-  padding-top: 60px;
 }
 
 .footer-container {
@@ -205,7 +204,6 @@
 @media screen and (min-width: 768px) {
   .footer {
     max-width: 704px;
-    padding-top: 80px;
   }
 
   .footer-container {
@@ -284,7 +282,6 @@
 @media screen and (min-width: 1280px) {
   .footer {
     max-width: 1216px;
-    padding-top: 100px;
   }
   .footer-container {
     padding: 40px 0 28px;
