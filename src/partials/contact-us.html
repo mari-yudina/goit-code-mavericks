@@ -1,8 +1,8 @@
 <section class="contact-us" id="contact-us">
-  <div class="container contact-us-container">
-    <h2 class="contact-us-title">Contact Us</h2>
-    <div class="wrapper-image">
-      <div class="contact-us-wrapper">
+  <div class="container contact-container">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-inner-container">
+      <div class="contact-text-wrapper">
         <form class="contact-us-form" autocomplete="off">
           <p class="form-text">
             Please use the form below to contact us. Enter your name, email,
@@ -64,8 +64,8 @@
           <button class="send-button" type="submit">Send</button>
         </form>
       </div>
-      <div class="contact-img">
-        <picture>
+      <div class="contact-us-img-container">
+        <picture class="contact-us-picture">
           <source
             media="(min-width: 1280px)"
             srcset="
@@ -80,10 +80,11 @@
               /img/contact-us/contact-us-tab-min.jpg    1x,
               /img/contact-us/contact-us-tab@2x-min.jpg 2x
             "
+            width="704"
           />
 
           <source
-            media="(max-width: 767px)"
+            media="(min-width: 320px)"
             srcset="
               /img/contact-us/contact-us-mob-min.jpg    1x,
               /img/contact-us/contact-us-mob@2x-min.jpg 2x
@@ -92,10 +93,9 @@
 
           <img
             class="contact-us-img"
-            src="/img/contact-us/contact-us-desc-min.jpg"
+            src="/img/contact-us/contact-us-mob@2x-min.jpg"
             alt="section-image"
             width="530"
-            height="556"
           />
         </picture>
       </div>
