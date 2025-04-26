@@ -1,11 +1,11 @@
 @media only screen and (min-width: 1280px) {
-  *,
+  /**,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-    /*body {
+    body {
         background-color: #FBFBFB;
         font-family: "Times New Roman", Times, serif;
     } 
@@ -88,7 +88,7 @@
 
   .form-input:focus,
   .form-input:hover {
-    border-color: 1px solid #3350e9;
+    border-color: #3350e9;
   }
 
   .form-comment {
@@ -140,13 +140,13 @@
 /*tablet*/
 
 @media only screen and (min-width: 768px) {
-  *,
+  /**,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-    /* body {
+    body {
         background-color: #FBFBFB;
         font-family: "Times New Roman", Times, serif;
     }
@@ -229,7 +229,7 @@
 
   .form-input:focus,
   .form-input:hover {
-    border-color: 1px solid #3350e9;
+    border-color: #3350e9;
   }
 
   .form-comment {
@@ -272,13 +272,13 @@
 /*mobile*/
 
 @media (max-width: 767px) {
-  *,
+  /**,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-  /* body {
+  body {
     background-color: #fbfbfb;
     font-family: 'Times New Roman', Times, serif;
   } */
@@ -364,7 +364,7 @@
 
   .form-input:focus,
   .form-input:hover {
-    border-color: 1px solid #3350e9;
+    border-color: #3350e9;
   }
 
   .form-comment {
