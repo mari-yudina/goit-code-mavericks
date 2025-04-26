@@ -89,13 +89,16 @@ h6 {
     display: flex;
   }
   .rev-title {
+    font-size: 48px;
+    line-height: 0.91667;
     margin-bottom: 40px;
   }
   .rev-list {
     gap: 16px;
   }
   .rev-item {
-    max-width: 344px;
+    /* max-width: 344px; */
+    max-width: 100%;
     flex-basis: calc((100% - 16px) / 2);
   }
   .rev-name {
