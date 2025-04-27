@@ -4,7 +4,7 @@
   padding: 8px;
   fill: #0c0c0c;
 }
-*/ .container {
+.container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
