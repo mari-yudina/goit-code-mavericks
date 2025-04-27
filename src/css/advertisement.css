@@ -20,13 +20,6 @@ button {
   padding-bottom: 30px;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
 .advertisement-background {
   background: #0c0c0c;
   background-image: url(/img/adverti/adverti-mob-min.png);
@@ -87,10 +80,6 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .advertisement {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -124,12 +113,6 @@ button {
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-
   .advertisement {
     padding-top: 50px;
     padding-bottom: 50px;
