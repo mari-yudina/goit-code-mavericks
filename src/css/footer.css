@@ -156,7 +156,6 @@
 
 .footer-nav-link:hover,
 .footer-nav-link:focus {
-  color: #fbfbfb;
   opacity: 1;
   transform: scale(1.1);
 }
