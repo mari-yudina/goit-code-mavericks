@@ -3,61 +3,71 @@
     <h2 class="section-title">Contact Us</h2>
     <div class="contact-inner-container">
       <div class="contact-text-wrapper">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
         <form class="contact-us-form" autocomplete="off">
-          <p class="form-text">
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
           <div class="all-inputs">
             <div class="form-label">
-              <label class="label" for="user-name"></label>
-              <input
-                class="form-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-                placeholder="Name"
-                required
-              />
+              <label class="label">
+                <input
+                  class="form-input"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  placeholder="Name"
+                  required
+                />
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
             </div>
 
             <div class="form-label">
-              <label class="label" for="user-email"></label>
-              <input
-                class="form-input"
-                type="email"
-                name="user-email"
-                id="user-email"
-                placeholder="Email"
-                required
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
-                title="Format: name@example.com"
-              />
+              <label class="label"
+                ><input
+                  class="form-input"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Email"
+                  required
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
+                  title="Format: name@example.com"
+                />
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
             </div>
 
             <div class="form-label">
-              <label class="label" for="user-phone"></label>
-              <input
-                class="form-input"
-                type="tel"
-                name="user-phone"
-                id="user-phone"
-                placeholder="+380"
-                required
-                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-                title="Format: +380-XX-XXX-XX-XX"
-              />
+              <label class="label">
+                <input
+                  class="form-input"
+                  type="tel"
+                  name="user-phone"
+                  id="user-phone"
+                  placeholder="+380"
+                  required
+                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                  title="Format: +380-XX-XXX-XX-XX"
+                />
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
             </div>
 
             <div class="form-comment">
-              <label class="label" for="user-comment"></label>
-              <textarea
-                class="input-comment"
-                name="user-comment"
-                id="user-comment"
-                rows="5"
-                placeholder="Comment"
-              ></textarea>
+              <label class="label">
+                <textarea
+                  class="input-comment"
+                  name="user-comment"
+                  id="user-comment"
+                  rows="5"
+                  placeholder="Comment"
+                ></textarea>
+              </label>
             </div>
           </div>
 
