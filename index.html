@@ -719,52 +719,52 @@
         <form class="contact-us-form" autocomplete="off">
           <div class="all-inputs">
             <div class="form-label">
-              <label class="label">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="user-name"
-                  id="user-name"
-                  placeholder="Name"
-                  required
-                />
+              <label class="label" for="user-name">
                 <p class="text-valid">Succes!</p>
                 <p class="text-invalid">Invalid email, try again</p></label
               >
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                required
+              />
             </div>
 
             <div class="form-label">
-              <label class="label"
-                ><input
-                  class="form-input"
-                  type="email"
-                  name="user-email"
-                  id="user-email"
-                  placeholder="Email"
-                  required
-                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
-                  title="Format: name@example.com"
-                />
+              <label class="label" for="user-email">
                 <p class="text-valid">Succes!</p>
                 <p class="text-invalid">Invalid email, try again</p></label
               >
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
+                title="Format: name@example.com"
+              />
             </div>
 
             <div class="form-label">
-              <label class="label">
-                <input
-                  class="form-input"
-                  type="tel"
-                  name="user-phone"
-                  id="user-phone"
-                  placeholder="+380"
-                  required
-                  pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-                  title="Format: +380-XX-XXX-XX-XX"
-                />
+              <label class="label" for="user-phone">
                 <p class="text-valid">Succes!</p>
                 <p class="text-invalid">Invalid email, try again</p></label
               >
+              <input
+                class="form-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                placeholder="+380"
+                required
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                title="Format: +380-XX-XXX-XX-XX"
+              />
             </div>
 
             <div class="form-comment">
