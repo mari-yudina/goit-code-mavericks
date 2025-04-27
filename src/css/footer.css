@@ -58,6 +58,7 @@
   transition: border-color 350ms ease;
   border-radius: 10px;
 }
+
 .footer-socials {
   display: flex;
   gap: 10px;
