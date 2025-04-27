@@ -1,7 +1,8 @@
 /*hero*/
 
 .hero {
-  padding: 60px 20px;
+  padding-top: 60px;
+  padding-bottom: 30px;
   flex-direction: column;
   align-items: center;
 }
@@ -78,7 +79,8 @@
 @media screen and (min-width: 768px) {
   .hero {
     align-items: flex-start;
-    padding: 80px 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
   }
 
   .hero-text {
@@ -148,7 +150,7 @@
 /* ≥ 1280px */
 @media (min-width: 1280px) {
   .hero {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .hero-text {

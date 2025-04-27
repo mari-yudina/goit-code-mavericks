@@ -3,14 +3,17 @@
     <h2 class="section-title">Contact Us</h2>
     <div class="contact-inner-container">
       <div class="contact-text-wrapper">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
         <form class="contact-us-form" autocomplete="off">
-          <p class="form-text">
-            Please use the form below to contact us. Enter your name, email,
-            phone, and message and we'll get back to you shortly.
-          </p>
           <div class="all-inputs">
             <div class="form-label">
-              <label class="label" for="user-name"></label>
+              <label class="label" for="user-name">
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
               <input
                 class="form-input"
                 type="text"
@@ -22,7 +25,10 @@
             </div>
 
             <div class="form-label">
-              <label class="label" for="user-email"></label>
+              <label class="label" for="user-email">
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
               <input
                 class="form-input"
                 type="email"
@@ -36,7 +42,10 @@
             </div>
 
             <div class="form-label">
-              <label class="label" for="user-phone"></label>
+              <label class="label" for="user-phone">
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p></label
+              >
               <input
                 class="form-input"
                 type="tel"
@@ -50,14 +59,15 @@
             </div>
 
             <div class="form-comment">
-              <label class="label" for="user-comment"></label>
-              <textarea
-                class="input-comment"
-                name="user-comment"
-                id="user-comment"
-                rows="5"
-                placeholder="Comment"
-              ></textarea>
+              <label class="label">
+                <textarea
+                  class="input-comment"
+                  name="user-comment"
+                  id="user-comment"
+                  rows="5"
+                  placeholder="Comment"
+                ></textarea>
+              </label>
             </div>
           </div>
 
