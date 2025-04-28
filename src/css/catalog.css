@@ -30,11 +30,11 @@
 .catalog-picture {
   display: block;
   text-align: center;
+  padding-bottom: 28px;
 }
 
 .catalog-img {
   display: inline-block;
-  padding-bottom: 28px;
 }
 
 .catalog-subtitle {
@@ -107,8 +107,11 @@
     flex-basis: calc((100% - 16px) / 2);
   }
 
-  .catalog-img {
+  .catalog-picture {
     padding-bottom: 20px;
+  }
+
+  .catalog-img {
   }
 
   .catalog-btn {
