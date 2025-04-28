@@ -83,7 +83,7 @@
 }
 
 .social-nav-link:hover .social-nav-icon,
-.social-nav-link:focus-within .social-nav-icon {
+.social-nav-link:focus .social-nav-icon {
   fill: #fbfbfb;
   opacity: 1;
   transform: scale(1.1);
